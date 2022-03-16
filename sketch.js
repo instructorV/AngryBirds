@@ -13,7 +13,7 @@ var bg = "sprites/bg1.png";
 var score = 0;
 
 function preload() {
-    getBackgroundImg();
+    backgroundImg = loadImage("sprites/bg1.png");
 }
 
 function setup(){
@@ -47,7 +47,7 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg)
+   
         background(backgroundImg);
     
         noStroke();
